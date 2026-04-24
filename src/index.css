@@ -1,0 +1,58 @@
+:root {
+  --bg: #f4ede3;
+  --surface: rgba(255, 252, 247, 0.92);
+  --ink: #241813;
+  --muted: #6f5a4b;
+  --accent: #d65d21;
+  --accent-deep: #8f3212;
+  --highlight: #f0a52b;
+  --deep: #23574c;
+  --display: 'Avenir Next Condensed', 'Arial Narrow', 'Segoe UI', sans-serif;
+  --body: 'Avenir Next', 'Trebuchet MS', 'Segoe UI', sans-serif;
+
+  font-family: var(--body);
+  line-height: 1.45;
+  font-weight: 400;
+  color: var(--ink);
+  background:
+    radial-gradient(circle at top, rgba(255, 188, 96, 0.35), transparent 25%),
+    radial-gradient(circle at left, rgba(45, 112, 96, 0.14), transparent 24%),
+    var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  background: var(--bg);
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+button {
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+#root {
+  min-height: 100vh;
+}
