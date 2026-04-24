@@ -1,0 +1,30 @@
+{
+  "name": "天天要练鼓",
+  "short_name": "天天练鼓",
+  "description": "天天要练鼓：给鼓手做的移动练习网页，支持更多音色、人声数拍、gap click、移动重音和渐进提速。",
+  "lang": "zh-CN",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4ede3",
+  "theme_color": "#d65d21",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
